@@ -16,43 +16,41 @@
 <body>
   <div class="section">
     <nav>
-      <a class="navbar-brand logo" href="index.html"><img src="brand-logo.png" width="100px" height="auto"></img></a>
+      <a href="index.html"><img src="brand-logo.png" class="logo"></img></a>
     </nav>
     <h2>Let's Play!</h2>
     <br>
     <h2>Choose: </h2>
     <div class="row choices">
-      <div class="col-md-4">
+      <div class="col-sm-4">
         <button onclick="play2()"><img src="2.png" class="2" alt=""></button>
         <p>Stone</p>
       </div>
-      <div class="col-md-4">
+      <div class="col-sm-4">
         <button onclick="play3()"><img src="3.png" class="3" alt=""></button>
         <p>Paper</p>
       </div>
-      <div class="col-md-4">
+      <div class="col-sm-4">
         <button onclick="play1()"><img src="1.png" class="1" alt=""></button>
         <p>Scissors</p>
       </div>
     </div>
     </row>
     <div class="row results">
-      <div class="col-md-6">
+      <div class="col-sm-6">
         <img src="ban.png" class="result1" alt="">
         <p>PLAYER 1</p>
       </div>
-      <div class="col-md-6">
+      <div class="col-sm-6">
         <img src="ban.png" class="result2 col-md-6" alt="">
         <p>CPU</p>
       </div>
     </div>
-    </row>
     <div class="row points">
-      <h1 class="p1 col-md-3">0</h1>
-      <h1 class="win col-md-6"></h1>
-      <h1 class="comp col-md-3">0</h1>
+      <h1 class="p1 col-sm-3 text center">0</h1>
+      <h1 class="win col-sm-6 text center"></h1>
+      <h1 class="comp col-sm-3 text center">0</h1>
     </div>
-    </row>
     <div class="refresh">
       <button onclick="refresh()" class="btn btn-primary"><span class="glyphicon glyphicon-refresh"></span>Play Again</button>
     </div>
