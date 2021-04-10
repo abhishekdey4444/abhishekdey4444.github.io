@@ -47,14 +47,19 @@ h1,h2{
   height: 100vh;
   background-color: #ccf2f4;
 }
+.navbar-brand{
+  width: 150px;
+  height: auto;
+  padding-left: 50px;
+}
 
-.container h1{
+.col-md-6 h1{
   padding: 50px 100px 50px 50px;
   color: #aaaaaa;
   text-align: left;
 }
-.container .btn{
-  margin: 10px 400px 0 50px;
+.col-md-12 .btn{
+  margin-left: 50px;
 }
 .refresh{
   text-align: center;
@@ -63,16 +68,18 @@ nav img{
   padding: 0;
 }
 .mobile{
-  width: 300px;
+  width: 250px;
   height: auto;
-  margin: 10px 10px 0 0;
-  padding-top: 100px;
+  margin: 20px 20px 20px 20px;
+  padding-top: px;
   transform: rotate(15deg);
 }
 .logo{
   position: absolute;
-  top:30px;
-  left:50px;
+  padding: 5px 0px 5px 50px;
+  width: 150px;
+  height: auto;
+
 }
 .p1,.comp{
   padding: 5px;
